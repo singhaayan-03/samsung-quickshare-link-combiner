@@ -60,3 +60,9 @@ https://singhaayan-03.github.io/samsung-quickshare-link-combiner/
 ## Disclaimer
 
 This project is an unofficial helper tool and is not affiliated with Samsung.
+
+## Preview
+
+<p align="center">
+  <img src="assets/preview.png" width="800" alt="Project Preview">
+</p>
