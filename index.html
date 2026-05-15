@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>QuickShare Link Combiner</title>
+<link
+  rel="icon"
+  type="image/png"
+  href="https://i.vgy.me/Iwc5A7.png"
+/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+  <div class="app">
+
+    <div class="navbar">
+
+      <div class="logo">
+        QuickShare
+      </div>
+
+      <div class="theme-toggle" id="themeToggle">
+        ☀️
+      </div>
+
+    </div>
+
+    <div class="card">
+
+      <h1>
+        Samsung Link Combiner
+      </h1>
+
+      <p>
+        Paste your Samsung QuickShare code below and instantly generate the full Samsung Cloud link in a clean modern interface.
+      </p>
+
+      <div class="input-box">
+
+        <input
+          type="text"
+          id="codeInput"
+          placeholder="Enter random code here..."
+          autocomplete="off"
+        >
+
+        <div class="base-url" id="liveLink">
+          https://quickshare.samsungcloud.com/
+        </div>
+
+      </div>
+
+      <div class="buttons">
+
+        <button class="open-btn" onclick="openLink()">
+          Open Link
+        </button>
+
+        <button class="copy-btn" onclick="copyLink()">
+          Copy Link
+        </button>
+
+      </div>
+
+      <div class="notification" id="notification"></div>
+
+      <div class="history">
+
+        <div class="history-header">
+
+          <div class="history-title">
+            Recent History
+          </div>
+
+          <div class="clear-history" onclick="clearHistory()">
+            Clear
+          </div>
+
+        </div>
+
+        <div id="historyContainer"></div>
+
+      </div>
+
+    </div>
+
+    <div class="footer">
+      ©2026 | Made by Aayan.
+    </div>
+
+  </div>
+
+</body>
+</html>
